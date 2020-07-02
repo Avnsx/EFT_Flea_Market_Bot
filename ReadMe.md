@@ -4,7 +4,7 @@
 
 #Master: yagamiraku | fork: astron4ik | this fork: Avn
 
-############# Description ##############################
+#Description: 
 Escape from Tarkov Flea Market Bot
  > for the homies who live on the edge and for the moment
 
