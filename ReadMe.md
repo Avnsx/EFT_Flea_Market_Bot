@@ -1,6 +1,6 @@
-master: https://github.com/yagamiraku/tarkov_flea_bot_toTherapis
-└──fork: https://github.com/astron4ik/tarkov_flea_bot_toTherapis
-└──this fork: https://github.com/Avnsx/EFT_Flea_Market_Bot
+ master: https://github.com/yagamiraku/tarkov_flea_bot_toTherapis
+  └──fork: https://github.com/astron4ik/tarkov_flea_bot_toTherapis
+   └──this fork: https://github.com/Avnsx/EFT_Flea_Market_Bot
 
 #Master: yagamiraku | fork: astron4ik | this fork: Avn
 
