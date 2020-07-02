@@ -1,0 +1,1 @@
+cd /d %~dp0 & RMDIR /Q/S __pycache__ & ipconfig /flushdns & start "" python "%CD%\source.py" /popup & /nobreak
