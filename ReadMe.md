@@ -43,6 +43,7 @@ https://go.microsoft.com/fwlink/?LinkId=691126
 #Open EFT Launcher > Settings > and Set "Close Launcher when game starts"
 
 #Information to Usage:
+
 	this bot should make you up to 2-4 M roubles an hour
 	you can further edit speed by reducing min_price
 	the current settings are perfect to do less purchases
