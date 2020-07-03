@@ -8,8 +8,6 @@
 
 #Read file READ_Me.md for assistance
 
-######### FIX LAUNCHER START ######
-
 ############# MAIN CODE BELOW DO NOT EDIT UNLESS YOU KNOW WHAT YOU ARE DOING##############################
 
 import requests
