@@ -97,7 +97,7 @@ https://go.microsoft.com/fwlink/?LinkId=691126
 	* i could not fix this as it did not occur for me at all
 
 #Additional:
-1. whenever you change your BSG folder location you will need to run getPath.py again
+1. whenever you change your BSG folder location you will need to delete config.ini & run getPath.py again
 	* it is recommended to delete __pycache__ sometimes if something breaks
 2. you can also start the bot through a cmd popup with the .batch file inside the folder
 	* this will delete pycache and clear your dns resolution cache
