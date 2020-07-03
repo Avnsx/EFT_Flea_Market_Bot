@@ -22,6 +22,7 @@ https://pip.pypa.io/en/stable/installing/
 
 #Run the commands below in CMD
 > Requires pip & CMD should be started as Admin
+
 	python -m pip install --upgrade pip
 	pip install requests
 	pip install pywin32
