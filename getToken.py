@@ -29,7 +29,7 @@ def getToken():
         try:
             token = psutil.Process(getProcessPID('EscapeFromTarkov_BE.exe')).cmdline()[3][7:]
             pID = getProcessPID('EscapeFromTarkov_BE.exe')
-            command = 'taskkill /PID ' + str(pID)
+            command = 'taskkill /PID ' + str(pID) + ' /f'
         except:
             pass
         if token is not None:
