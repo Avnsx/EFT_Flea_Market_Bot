@@ -128,4 +128,15 @@ https://go.microsoft.com/fwlink/?LinkId=691126
 	It is your own responsibility to keep yourself up to date using various forums or other information sources to see if there were
 	patches from BSG; to break or invalidate the usage of this bot.
 
+#Uninstall:
+> You no longer wish to use this bot?
+
+	go to the download location and simply delete the folder
+	for the other files you were required to download to use this bot
+	
+	check this article out on how to uninstall files:
+	https://support.microsoft.com/en-us/help/4028054/windows-10-repair-or-remove-programs
+	
+	the file names are Python 3.8 pywin32-228, Microsoft Visual C++ Build Tools, Python 3.8 (64-bit) & Python Launcher
+
 # shoutout to my favorite Pepega nikita (:
