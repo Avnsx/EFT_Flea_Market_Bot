@@ -51,6 +51,15 @@ https://go.microsoft.com/fwlink/?LinkId=691126
 	you can further edit speed by reducing min_price
 	the current settings are perfect to do less purchases
 	and have the most less spent value at the same time
+	
+	we are aiming to do less purchases because we don't want
+	our therapist > spent value on trader > to go to absurd
+	amounts of roubles as it will look illegitimate;
+	with current default settings you will be profiting around
+	70 % of the value you are buying and reselling back to trader for.
+	so let us say you got 2 million spent on therapist during usage;
+	you will be left back with raw 1.5 million of those 2 million
+	roubles straight in your inventory
 
 	another factor is the time
 	time.sleep(to_wait / 100) (CTRL + F to find)
