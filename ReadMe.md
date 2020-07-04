@@ -61,8 +61,8 @@ https://go.microsoft.com/fwlink/?LinkId=691126
 	you will be left back with raw 1.5 million of those 2 million
 	roubles straight in your inventory
 
-	another factor is the time
-	time.sleep(to_wait / 100) (CTRL + F to find)
+	another factor is the time time.sleep(to_wait / 100)
+	(CTRL + F to find) inside source.py
 	below 100 to make it slower
 	above 100 to make it quicker
 	if you add time.sleep() anywhere it will break
@@ -70,6 +70,7 @@ https://go.microsoft.com/fwlink/?LinkId=691126
 	and your bot stops doing purchases completely, due to time outed
 	session cookie so only edit the already existing
 	time.sleep(to_wait / 100) (CTRL + F to find)
+	time.sleep() operates in milliseconds
 
 	all you really need to do is go to source.py and start it
 	that will trigger getPath.py which gets the file paths
