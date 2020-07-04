@@ -56,7 +56,7 @@ https://go.microsoft.com/fwlink/?LinkId=691126
 	our therapist > spent value on trader > to go to absurd
 	amounts of roubles as it will look illegitimate;
 	with current default settings you will be profiting around
-	70 % of the value you are buying and reselling back to trader for.
+	75 % of the value you are buying and reselling back to trader for.
 	so let us say you got 2 million spent on therapist during usage;
 	you will be left back with raw 1.5 million of those 2 million
 	roubles straight in your inventory
@@ -76,6 +76,11 @@ https://go.microsoft.com/fwlink/?LinkId=691126
 	and saves it to a file that gets then created as config.ini
 	this will only be required on the first launch of source.py
 	afterwards the bsg launcher will open and you may click play
+	
+	the game client should be launched and automaticaly instantly
+	closed again, while the bot operates on low cpu usage and tarkov
+	is closed. during that time, you can go watch videos or go afk.
+	
 	you can pretty much run this bot 24/7 but i would recommend
 	2 hour cycles also do not use it during bsg updates such
 	as server & patch maintenances as bsg will be actively checking
