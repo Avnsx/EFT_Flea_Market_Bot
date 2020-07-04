@@ -29,17 +29,19 @@ def getToken():
         try:
             token = psutil.Process(getProcessPID('EscapeFromTarkov_BE.exe')).cmdline()[3][7:]
             pID = getProcessPID('EscapeFromTarkov_BE.exe')
-            command = 'taskkill /PID ' + str(pID) + ' /f'
+            command_tarkovBE = 'taskkill /PID ' + str(pID) + ' /f'
             time.sleep(0.33)
             psutil.Process(getProcessPID('EscapeFromTarkov.exe'))
             pID = getProcessPID('EscapeFromTarkov.exe')
-            command = 'taskkill /PID ' + str(pID) + ' /f'
+            command_tarkov = 'taskkill /PID ' + str(pID) + ' /f'
             time.sleep(0.33)
             psutil.Process(getProcessPID('UnityCrashHandler64.exe'))
             pID = getProcessPID('UnityCrashHandler64.exe')
-            command = 'taskkill /PID ' + str(pID) + ' /f'
+            command_unity = 'taskkill /PID ' + str(pID) + ' /f'
         except:
             pass
         if token is not None:
-            subprocess.Popen(command, stdout=DEVNULL, stderr=DEVNULL)
+            subprocess.Popen(command_tarkovBE, stdout=DEVNULL, stderr=DEVNULL)
+            subprocess.Popen(command_tarkov, stdout=DEVNULL, stderr=DEVNULL)
+            subprocess.Popen(command_unity, stdout=DEVNULL, stderr=DEVNULL)
             return token
