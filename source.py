@@ -85,7 +85,7 @@ print('█████╗  ██║     █████╗  ██████�
 print('██╔══╝  ██║     ██╔══╝  ██╔══██║    ██║╚██╔╝██║██╔══██║██╔══██╗██╔═██╗ ██╔══╝     ██║       ██╔══██╗██║   ██║   ██║   ')
 print('██║     ███████╗███████╗██║  ██║    ██║ ╚═╝ ██║██║  ██║██║  ██║██║  ██╗███████╗   ██║       ██████╔╝╚██████╔╝   ██║   ')
 print('╚═╝     ╚══════╝╚══════╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝   ╚═╝       ╚═════╝  ╚═════╝    ╚═╝   ')
-print('[INFO:] Welcome to Developer Version 0.31 for Game Client Version ' + str(ClientVersion)+ ' on Unity Engine Version ' + str(UnityVersion))
+print('[INFO:] Welcome to Developer Version 0.32 for Game Client Version ' + str(ClientVersion)+ ' on Unity Engine Version ' + str(UnityVersion))
 print('[INFO:] This github fork was developed by Avn @ unknowncheats. Additionaly huge thanks to yagamiraku & astron4ik!')
 print('[INFO:] The last manual update to this code was on 07/06/2020 by Avn unknowncheats.me/forum/members/2564688.html')
 
@@ -364,7 +364,7 @@ def buy(offer): #purchase item function
         'https://prod.escapefromtarkov.com/client/game/profile/items/moving',
         json.dumps(data))
 
-    if result_data['err'] in (228, 1512, 1514):
+    if result_data['err'] in (228, 1512, 1514, 1500):
         return
 
     if result_data['err'] == 1505:
