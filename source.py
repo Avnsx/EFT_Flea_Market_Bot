@@ -513,7 +513,7 @@ if __name__ == '__main__':
                         # print('\n... No items found.')
                         todo = {}
                     for offer in offers:
-                        if int(offer['itemsCost'] * 0.75) - offer['summaryCost'] > min_price:  # price check
+                        if int(offer['itemsCost'] * 0.60) - offer['summaryCost'] > min_price:  # price check originally 75
                             buy(offer)
 
             except:
