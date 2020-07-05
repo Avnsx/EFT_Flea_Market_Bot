@@ -97,7 +97,7 @@ moneyStacks = {}
 all_item_list = {}
 NPC = ""
 use_full_list = True
-min_price = 1287 #Minimum Price to profit in Rubles, price also changes speed of income and spent value on therapist
+min_price = 987 #Minimum Price to profit in Rubles, price also changes speed of income and spent value on therapist
 NPC_name = 'Терапевт' #Therapist in russian
 
 WishList = ['5ad7247386f7747487619dc3', '5a0ee34586f774023b6ee092', '5c127c4486f7745625356c13',
