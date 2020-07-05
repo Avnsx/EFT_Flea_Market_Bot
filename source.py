@@ -87,7 +87,7 @@ print('██║     ███████╗███████╗██║  
 print('╚═╝     ╚══════╝╚══════╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝   ╚═╝       ╚═════╝  ╚═════╝    ╚═╝   ')
 print('[INFO:] Welcome to Developer Version 0.31 for Game Client Version ' + str(ClientVersion)+ ' on Unity Engine Version ' + str(UnityVersion))
 print('[INFO:] This github fork was developed by Avn @ unknowncheats. Additionaly huge thanks to yagamiraku & astron4ik!')
-print('[INFO:] The last manual update to this code was on 07/01/2020 by Avn unknowncheats.me/forum/members/2564688.html')
+print('[INFO:] The last manual update to this code was on 07/06/2020 by Avn unknowncheats.me/forum/members/2564688.html')
 
 RUBLES = '5449016a4bdc2d6f028b456f'
 PMC = {}
