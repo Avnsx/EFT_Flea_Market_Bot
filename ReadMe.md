@@ -4,7 +4,7 @@
 
 > this fork: https://github.com/Avnsx/EFT_Flea_Market_Bot
 
-> as seen on unknowncheats: https://www.unknowncheats.me/forum/escape-from-tarkov/405112-updated-flea-market-bot.html
+> UC Thread: https://www.unknowncheats.me/forum/escape-from-tarkov/405112-updated-flea-market-bot.html
 
 #Master: yagamiraku | fork: astron4ik | this fork: Avn
 
