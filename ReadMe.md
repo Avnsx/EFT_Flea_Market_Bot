@@ -22,7 +22,7 @@ https://www.python.org/downloads/release/python-383/
 > install pip through the python installer itself or below
 https://pip.pypa.io/en/stable/installing/
 
-# Run the commands below in CMD
+#Run the commands below in CMD
 > Requires pip & CMD should be started as Admin
 
 	python -m pip install --upgrade pip
