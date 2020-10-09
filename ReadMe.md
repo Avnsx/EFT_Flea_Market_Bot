@@ -120,16 +120,8 @@ https://go.microsoft.com/fwlink/?LinkId=691126
 	* this will delete pycache and clear your dns resolution cache
 	* then start the bot in a cmd popout
 
-# Ban Risk:
-> Of course there's always a ban risk whenever using 3rd party code! Use this at your own Risk.
-	I personally used this blatantly for over a week and pretty much bought every possible item in the game at least once
-	I have had a great time together with a buddy using and developing this bot; including hundreds of full geared runs
-
-	Currently the only way to receive a ban through the usage of this - in as far as I know - is when a employee from BattleShitGames,
-	who works in their statistical data analysis team manually checks over the Flea Market logs (which historically occurs every Thursday)
-
-	It is your own responsibility to keep yourself up to date using various forums or other information sources to see if there were
-	patches from BSG; to break or invalidate the usage of this bot.
+# Ban Risk & Work status:
+Detected and patched due to them adding captchas to the eft api. Gave up on this project due to lack of time, prolly easily unpatchable but it's up to you (:
 
 # Uninstall:
 > You no longer wish to use this bot?
