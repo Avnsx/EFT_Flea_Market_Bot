@@ -1,4 +1,3 @@
-# UPDATE | January 2021 : Noticed that this github repository, gets a high load of attention recently. So I'm looking for someone to allow me access to his EFT account, on which I can unpatch this Bot or just entirely re-write it to an v2. In return you'll be the first one to have access to the new written bot, and one of the first people to test it! Hit me up on Discord if Interested: Avn#8125
 > master: https://github.com/yagamiraku/tarkov_flea_bot_toTherapis
 
 > fork: https://github.com/astron4ik/tarkov_flea_bot_toTherapis
