@@ -1,41 +1,20 @@
-################### Credits ###############################
-
 #master: https://github.com/yagamiraku/tarkov_flea_bot_toTherapis
 #	└──fork: https://github.com/astron4ik/tarkov_flea_bot_toTherapis
 #		└──this fork: https://github.com/Avnsx/EFT_Flea_Market_Bot
-
 #Master: yagamiraku | fork: astron4ik | this fork: Avn
 
-#Read file READ_Me.md for assistance
-
-############# MAIN CODE BELOW DO NOT EDIT UNLESS YOU KNOW WHAT YOU ARE DOING##############################
-
-import requests
-import zlib
-import hashlib
-import json
-import datetime
-import traceback
-import os
-import sys
-import time, threading
+import requests,zlib,hashlib,json,configparser,random,os,time,threading,UnityPy,subprocess
 from multiprocessing.pool import ThreadPool
-import random
 import getToken as token
-import UnityPy
 from win32api import GetFileVersionInfo, LOWORD, HIWORD
-import configparser
-import subprocess
 config = configparser.ConfigParser()
 
 if os.path.exists('config.ini'):
     config.read_file(open('config.ini'))
-    pass
 else:
 	print('[ERROR:] Did not find config.ini inside installation folder! Running getPath.py now, to create a config.ini file.')
 	time.sleep(3)
 	exec(open('./getPath.py').read())
-	pass
 
 def get_version_number(filename):
     try:
@@ -47,7 +26,6 @@ def get_version_number(filename):
         print('[ERROR:] Failed to fetch EFT Client version! Does getPath.py & config.ini exist in your installation folder?')
         time.sleep(10)
         exit()
-        return
 
 if __name__ == "__main__":
    ClientVersion = ".".join([str (i) for i in get_version_number (config['DEFAULT']['clientpath'])])
@@ -285,7 +263,7 @@ def _keep_alive(): #keep session token alive
         get_api_result('https://prod.escapefromtarkov.com/client/game/keepalive', '')
         time.sleep(5 * 60)
 
-def goto(linenum): #do not judge
+def goto(linenum): #i don't think this works in first place?
     global line
     line = linenum
     line == 1
@@ -387,7 +365,7 @@ def buy(offer): #purchase item function
                         {
                             "Action": "TradingConfirm",
                             "type": "sell_to_trader",
-                            "tid": NPC['_id'],  #NPC Identifier
+                            "tid": NPC['_id'],
                             "items":
                                 [
                                     {"id": item['_id'], "count": item['upd']['StackObjectsCount'],
@@ -516,7 +494,7 @@ if __name__ == '__main__':
                         if int(offer['itemsCost'] * 0.60) - offer['summaryCost'] > min_price:  # price check originally 75
                             buy(offer)
 
-            except:
-                #traceback.print_exc()
+            except Exception as e:
+                # print(e)
                 print('\n[ERROR:]: Offers returned NullType, restarting routine...')
-                goto(1) #do not judge eZ bugfix
+                goto(1) #edit: i think the only reason this does something at all; is because it causes an error inside an exeception and then python goes back to the __main__'s lol
