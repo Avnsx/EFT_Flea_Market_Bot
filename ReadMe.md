@@ -1,3 +1,5 @@
+![GitHub Banner](https://raw.githubusercontent.com/Avnsx/EFT_Flea_Market_Bot/master/project_banner.PNG)
+
 > master: https://github.com/yagamiraku/tarkov_flea_bot_toTherapis
 
 > fork: https://github.com/astron4ik/tarkov_flea_bot_toTherapis
@@ -132,4 +134,3 @@ Detected and patched due to them adding captchas to the eft api. Gave up on this
 
 	to delete the bot itsself; go to the download location and simply delete the folder "EFT_Flea_Market_Bot"
 
-# shoutout to my favorite Pepega nikita (:
