@@ -124,6 +124,8 @@ https://go.microsoft.com/fwlink/?LinkId=691126
 
 # Ban Risk & Work status:
 Detected and patched due to them adding captchas to the eft api. Gave up on this project due to lack of time, prolly easily unpatchable but it's up to you (:
+If you're going for an unpatch; you should make sure to add all the new auth stuff and also make sure you actually send the new BSGLauncher Useragent for all requests.
+At the time of writing this all of that didn't exist in first place, so I never had to add them. Unfortunately since I released this bot(first public EFT Föea Market bot ever of it's kind) and all the people that learnt from this bot and made copies of theirs; they've heavily updated and started checking through all their received requests.
 
 # Uninstall:
 > You no longer wish to use this bot?
