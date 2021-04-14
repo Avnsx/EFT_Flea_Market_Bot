@@ -126,11 +126,12 @@ https://go.microsoft.com/fwlink/?LinkId=691126
 Detected and patched due to them adding captchas to the eft api. Gave up on this project due to lack of time, prolly easily unpatchable but it's up to you (:
 If you're going for an unpatch; you should make sure to add all the new auth stuff and also make sure you actually send the new BSGLauncher Useragent for all requests.
 At the time of writing this all of that didn't exist in first place, so I never had to add them. Unfortunately since I released this bot(first public EFT Föea Market bot ever of it's kind) and all the people that learnt from this bot and made copies of theirs; they've heavily updated and started checking through all their received requests.
+I do no longer develop updates for this bot please stop asking. On the 11th of January 2021, was the last person that contacted me saying that he had ran the bot and apparently it still worked for him for a good week generating 10M until he got banned.
 
 # Uninstall:
 > You no longer wish to use this bot?
 	check this article out on how to uninstall files:
-	https://support.microsoft.com/en-us/help/4028054/windows-10-repair-or-remove-programs
+	https://support.microsoft.com/en-us/windows/uninstall-or-remove-apps-and-programs-in-windows-10-4b55f974-2cc6-2d2b-d092-5905080eaf98
 	
 	the file names are Python 3.8 pywin32-228, Microsoft Visual C++ Build Tools, Python 3.8 (64-bit) & Python Launcher
 
